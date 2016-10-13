@@ -10,7 +10,7 @@ import {
 import { SwipeListView } from 'react-native-swipe-list-view';
 
 
-var react_native_todo_list = React.createClass({
+var ReactNativeTodoList = React.createClass({
   getInitialState: function() {
     var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
     var todoItems = [
@@ -72,4 +72,4 @@ var styles = StyleSheet.create({
   }
 });
 
-AppRegistry.registerComponent('react_native_todo_list', () => react_native_todo_list);
+AppRegistry.registerComponent('ReactNativeTodoList', () => ReactNativeTodoList);

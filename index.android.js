@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-class react_native_todo_list extends Component {
+class ReactNativeTodoList extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('react_native_todo_list', () => react_native_todo_list);
+AppRegistry.registerComponent('ReactNativeTodoList', () => ReactNativeTodoList);

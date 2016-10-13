@@ -1,4 +1,4 @@
-package com.react_native_todo_list;
+package com.reactnativetodolist;
 
 import android.app.Application;
 import android.util.Log;

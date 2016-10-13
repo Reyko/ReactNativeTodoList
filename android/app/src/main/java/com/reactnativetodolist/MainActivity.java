@@ -1,4 +1,4 @@
-package com.react_native_todo_list;
+package com.reactnativetodolist;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "react_native_todo_list";
+        return "ReactNativeTodoList";
     }
 }
